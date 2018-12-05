@@ -17,7 +17,7 @@ R是一種程式語言，對於統計、製圖都有很方便，看更多介紹�
 ![image_R studio1](https://github.com/Piercecyl/R_Statistics/blob/master/image/R2.png)
 
 
-
+<p><a href="https://www.rstudio.com/products/rstudio/?wvideo=520zbd3tij"><img src="https://embedwistia-a.akamaihd.net/deliveries/260e6e980f526abaedf8ef3378270c899da74f08.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=71a5d4e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://www.rstudio.com/products/rstudio/?wvideo=520zbd3tij">RStudio IDE Overview</a></p>
 
 
 
