@@ -1,6 +1,6 @@
 print("Hello R!")
 
-#°òÂ¦¹Bºâ
+#åŸºç¤é‹ç®—
 x <- 5
 y <- 4
 x+y
@@ -9,8 +9,8 @@ x*y
 x/y
 2^2
 2**3
-sqrt(y) #¶}®Ú¸¹
-abs(-1) #µ´¹ï­È 
+sqrt(y) #é–‹æ ¹è™Ÿ
+abs(-1) #çµ•å°å€¼ 
 
 #use c() to create/combine vectors
 num = 1:5
@@ -20,34 +20,34 @@ mean(num)
 
 #mode
 x = c(1:5,5)
-t = table(x) #­pºâ¨C­Ó¼Æ­Èªº­Ó¼Æªí
+t = table(x) #è¨ˆç®—æ¯å€‹æ•¸å€¼çš„å€‹æ•¸è¡¨
 t
-t[which(table(x) == max(table(x)))] #table(x)¸Ì»P³Ì¤j­Ó¼Æ²Å¦Xªº¸ê®Æ
+t[which(table(x) == max(table(x)))] #table(x)è£¡èˆ‡æœ€å¤§å€‹æ•¸ç¬¦åˆçš„è³‡æ–™
 
-#²Î­p±`¥Î«ü¼Ğ
-var(num) #ÅÜ²§¼Æ(¤è®t)
-sd(num) #¼Ğ·Ç®t
-prod(num) #³s­¼
+#çµ±è¨ˆå¸¸ç”¨æŒ‡æ¨™
+var(num) #è®Šç•°æ•¸(æ–¹å·®)
+sd(num) #æ¨™æº–å·®
+prod(num) #é€£ä¹˜
 max(num)
 min(num)
 median(num)
-range(num) #½d³ò(1¸ò5)
-quantile(num) #¦Ê¤À¦ì¶Z
+range(num) #ç¯„åœ(1è·Ÿ5)
+quantile(num) #ç™¾åˆ†ä½è·
 q1 = quantile(num,0.25)
 q1
 q3 = quantile(num,0.75)
 q3
-IQR(num) #¥|¤À¦ì¶Z(Q3-Q1)
+IQR(num) #å››åˆ†ä½è·(Q3-Q1)
 a <- c(sum(num),mean(num),var(num),sd(num),median(num))
 a
-summary(num) #­Ó¼Æ­È¥Nªíªº·N¸q
+summary(num) #å€‹æ•¸å€¼ä»£è¡¨çš„æ„ç¾©
 
 
 
 x <- list(a = 1, b = TRUE, c = "test", d = c(1, 2, 3)) 
 x
-x[4]  #Åã¥Ü²Ä¥|­Ó¦ì­È±o­È
-x[[4]] #Åã¥Ü¼Æ­È4
+x[4]  #é¡¯ç¤ºç¬¬å››å€‹ä½å€¼å¾—å€¼
+x[[4]] #é¡¯ç¤ºæ•¸å€¼4
 
 #data.frame
 data.frame(id=c(1,2,3,4,5,6), income=c(4,8,15,16,25,30), edu=c(5,6,7,12,15,19))
@@ -58,27 +58,19 @@ gender = c("F","M","M")
 name = c("Amy","Bruce","Temin")
 persons = data.frame(name,gender,height,weight)
 mean(persons$height)
-sd(persons$weight) #¼Ğ·Ç®t
+sd(persons$weight) #æ¨™æº–å·®
 
-#Data structure????????????????????
-character????????????????????? "" ????????????ex???"test"
-numeric?????????
-integer?????????
-complex?????????
-logical???True ??? False
-class(10)
-class("Hello")
 
-#Åª¶iCSV
+#è®€é€²CSV
 data1 <- read.csv("D:/R/customer.csv", header = T)
 summary(data$age)
 mean(data$income)
 median(data$employ)
-sort(data$age) #±Æ§Ç(¥Ñ¤p¨ì¤j)
-sort(data$age, decreasing = TRUE) #±Æ§Ç(¥Ñ¤j¨ì¤p)
+sort(data$age) #æ’åº(ç”±å°åˆ°å¤§)
+sort(data$age, decreasing = TRUE) #æ’åº(ç”±å¤§åˆ°å°)
 
 #barplot
-counts <- table(data$gender) #Åª¶iªºCSV¤¤ªº©Ê§O¡A¤À§Oªº­Ó¼Æ
+counts <- table(data$gender) #è®€é€²çš„CSVä¸­çš„æ€§åˆ¥ï¼Œåˆ†åˆ¥çš„å€‹æ•¸
 barplot(counts, main="Gerder",
         names.arg=c("0 Female", "1 Male"))
 
@@ -101,11 +93,11 @@ hist(data$income, nclass = 10 )
 #boxplot
 boxplot(data$age, horizontal = TRUE, xlab = "Age", main="Boxplot")
 
-#plot(¤À¥¬¹Ï)
+#plot(åˆ†å¸ƒåœ–)
 plot(data$age,data$income, main="scatter plot")
 plot
 
-#¸É¥R
+#è£œå……
 f = function(x)
   {
   if(x > 10)
@@ -123,11 +115,11 @@ f = function(x)
 }
 f(10)
 f(-1)
-#for°j°é
+#forè¿´åœˆ
 for(i in c('a','b')){
   print(i);
 } 
-for(j in seq(from=4, to=10, by=3)) { #§Ç¦C
+for(j in seq(from=4, to=10, by=3)) { #åºåˆ—
   print(j);
 } 
 for(k in 1:3) {
