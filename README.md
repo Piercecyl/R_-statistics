@@ -7,8 +7,10 @@
 R是一種程式語言，對於統計、製圖都有很方便，看更多介紹可看[這裡](https://www.r-project.org/about.html)。
 ## How to install R studio?
 1. 先到[R studio](https://www.rstudio.com/)並且點選Download RStudio。
+
 ![image_R studio](https://github.com/Piercecyl/R_Statistics/blob/master/image/R.PNG)
 2. 找到Installers for Supported Platforms，選擇對應的版本，下載後一直下一步就好。
+
 ![image_R studio1](https://github.com/Piercecyl/R_Statistics/blob/master/image/R2.png)
 
 
