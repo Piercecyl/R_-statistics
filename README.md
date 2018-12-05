@@ -29,6 +29,8 @@ R是一種程式語言，對於統計、製圖都有很方便，看更多介紹�
 ## R commands
 * Ctrl + Enter：執行
 * Crtl + Shift + C：註記
+
+
 其他常見指令可到[官網文件](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts)找到
 
 
