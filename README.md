@@ -26,7 +26,10 @@ R是一種程式語言，對於統計、製圖都有很方便，看更多介紹�
 
 <p><a href="https://www.rstudio.com/products/rstudio/?wvideo=520zbd3tij"><img src="https://embedwistia-a.akamaihd.net/deliveries/260e6e980f526abaedf8ef3378270c899da74f08.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=71a5d4e0" width="1400" height="500" style="width: 400px; height: 225px;"></a></p><p><a href="https://www.rstudio.com/products/rstudio/?wvideo=520zbd3tij">RStudio IDE Overview</a></p>
 
-
+## R commands
+* Ctrl + Enter：執行
+* Crtl + Shift + C：註記
+其他常見指令可到[官網文件](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts)找到
 
 
 
